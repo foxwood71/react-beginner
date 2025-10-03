@@ -146,3 +146,9 @@
     flex: 1;
   }
 }
+
+@layer components {
+  .my-menu-style {
+    @apply font-semibold text-muted-foreground hover:text-white transition-all duration-500;
+  }
+}
