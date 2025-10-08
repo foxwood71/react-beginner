@@ -12,4 +12,14 @@ const CLASS_CATEGORY = [
   { id: 8, label: "자기계발", category: "self-development", icon: <Footprints /> },
 ];
 
-export { CLASS_CATEGORY };
+const TOPIC_CATEGORY = [
+  { id: 1, label: "인문학", category: "humanity" },
+  { id: 2, label: "스타트업", category: "start-up" },
+  { id: 3, label: "IT·프로그래밍", category: "programming" },
+  { id: 4, label: "서비스·전략 기획", category: "planning" },
+  { id: 5, label: "마케팅", category: "marketing" },
+  { id: 6, label: "디자인·일러스트", category: "design" },
+  { id: 7, label: "자기계발", category: "self-development" },
+];
+
+export { CLASS_CATEGORY, TOPIC_CATEGORY };
