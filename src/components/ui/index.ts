@@ -1,3 +1,5 @@
+import { Form } from "./form";
+
 // 단일 파일로 export
 export { Button, buttonVariants } from "./button";
 export { Skeleton } from "./skeleton";
@@ -16,3 +18,5 @@ export {
   SelectTrigger,
   SelectValue,
 } from "./select";
+
+export { useFormField, Form, FormItem, FormLabel, FormControl, FormDescription, FormMessage, FormField } from "./form";
